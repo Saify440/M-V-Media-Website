@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    background: linear-gradient(#222831, #556986);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensures the background covers the full viewport height */
+}
+
+.first-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh; /* Ensures the first page covers the full viewport height */
+    justify-content: center; /* Centers content vertically within the container */
+    align-items: center; /* Centers content horizontally within the container */
+    text-align: center;
+    overflow: hidden; /* Prevents any overflow on the first page */
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    position: sticky; /* Makes the banner sticky */
+    top: 0; /* Sticks the banner to the top of the page */
+    background-color: rgba(0, 0, 0, 0); /* Add a background color to ensure it covers the entire width */
+    z-index: 100; /* Ensures the banner is above other content */
+}
+
+.logo-img {
+    width: 255px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.pelements {
+    display: flex;
+    margin-left: auto; /* Pushes the pelements to the right side */
+    font-size: 30px;
+    color: white;
+    gap: 85px;
+    font-family: 'Inter';
+    font-weight: 300;
+    padding-right: 50px;
+}
+
+.pelements a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+.pelements p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Styles for normal links */
+a:link {
+    color: inherit; /* This will make the link color the same as the surrounding text */
+}
+
+/* Styles for visited links */
+a:visited {
+    color: inherit; /* This will make the visited link color the same as the surrounding text */
+}
+
+/* Styles for hover effects */
+.pelements a:hover p {
+    color: #00ADB5;
+    transition: color 0.3s ease-in-out;
+}
+
+
+/* Styles for active links */
+a:active {
+    color: inherit; /* This will make the active link color the same as the surrounding text */
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically within the container */
+    align-items: center; /* Centers content horizontally within the container */
+    text-align: center;
+    height: 100%; /* Ensures the container covers the full height */
+}
+
+.p-title, .p-title2 {
+    color: white;
+    font-size: clamp(40px, 8vw, 80px); /* Adjusts size based on viewport */
+    margin: 0; /* Remove default margins */
+    font-weight: bold;
+    font-family: 'Inter';
+    line-height: 100%;
+    text-shadow: 10px 10px 25px rgba(0, 0, 0, 1); /* Add text shadow */
+    margin-top: -75px;
+}
+
+.p-title2 {
+    margin-top: 0px; /* Adjust this value for the desired gap */
+}
+
+.blue-text {
+    color: #00ADB5; /* Adjust the hex value for your preferred shade of blue */
+}
+
+.quote-button {
+    background-color: black;
+    color: white;
+    border: 2px solid #00ADB5;
+    border-radius: 40px;
+    padding: 15px 30px; /* Adjust the padding as needed */
+    font-size: 20px; /* Adjust the font size as needed */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    margin-top: 50px; /* Adjust the margin to position the button below the text */
+    transition: all 0.3s ease-in-out;
+}
+
+.quote-button:hover {
+    background-color: #00ADB5; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+    border-color: black; /* Change border color on hover */
+}
+
+.second-page {
+    display: flex;
+    justify-content: flex-start; /* Aligns content at the top */
+    align-items: center; /* Centers content horizontally within the container */
+    text-align: center;
+    min-height: 100vh; /* Ensures the section covers at least the full viewport height */
+    background-color: #393E46; /* Change the background color as needed */
+    flex-direction: column; /* Change to column */
+    margin-top: 0px;
+}
+
+.page-title2 {
+    color: white;
+    margin: 0;
+    text-align: center;
+    margin-top: 0; /* Adjust this value if needed to get the desired spacing */
+    padding-top: 200px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-size: 60px;
+    font-weight: 100;
+}
+.subtitle2 {
+    color: white;
+    font-size: 40px;
+}
+.page2-info, .page3-info {
+    align-self: flex-start; /* Aligns these specific elements to the far left */
+    text-align: left; /* Ensure text within the div is left-aligned */
+    margin-left: 50px; /* Optional: Add margin if you want some space from the left edge */
+    width: 50%; /* Adjust the width as needed */
+}
+.page2p {
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+}
+.page2p2 {
+    color: white;
+    font-size: 40px;
+}
+.content-container, .page2-3-info {
+    display: flex;
+    justify-content: space-between; /* Ensures there is space between the two elements */
+    align-items: flex-start; /* Aligns the items at the top */
+    width: 100%; /* Ensure the container takes the full width */
+}
+
+.page2-img, .page2-3-img {
+    align-self: flex-start; /* Ensures the image starts at the top */
+    margin-left: auto; /* Pushes the image to the right */
+    padding-right: 20px; /* Optional: Add margin if you want some space from the right edge */
+    width: 50%; /* Adjust the width as needed */
+}
+.h1-title {
+    color: white;
+    margin: 0;
+    text-align: center;
+    margin-top: 0; /* Adjust this value if needed to get the desired spacing */
+    padding-top: 200px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-size: 60px;
+    font-weight: 100;
+}
+.page2-button {
+    padding-top: 30px;
+}
+.img-p2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+}
+.page2-3-img{
+    padding-top:50px;
+}
+.page2-3{
+    padding-top: 50px;
+}
+.third-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically within the container */
+    align-items: center; /* Centers content horizontally within the container */
+    text-align: center;
+    min-height: 100vh; /* Ensures the section covers at least the full viewport height */
+    background: linear-gradient(#222831, #556986); /* Same background as the first page */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; /* Prevents any overflow */
+}
+
+
+/*FORM CSS*/
+
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #000000;
+    color:white;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #00ADB5;
+    border-color: rgb(0, 0, 0);
+    color:#000000;
+    min-width: 300px;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+.inline{
+    display: inline; 
+}
+h1, p{
+    color: rgb(255, 255, 255);
+}
+
+.dropdown{
+    border-radius: 10px;
+}
+
+/*END OF FORM CSS*/
+
+
+.fourth-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically within the container */
+    align-items: center; /* Centers content horizontally within the container */
+    text-align: center;
+    min-height: 20vh; /* Ensures the section covers at least the full viewport height */
+    background-color: #393e46; /* Same background as the first page */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; /* Prevents any overflow */
+}
+.social-img{
+    width:50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.position-bottom {
+    display: flex;
+    align-items: center; /* Centers the items vertically */
+}
+.position-bottom img {
+    margin-right: 5px; /* Adds some space between the image and the text */
+}
+
+
+/*ANIMATIONS*/
+
+
+/* Define the keyframes for the floating and opacity transition */
+@keyframes floatIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to all elements except the banner */
+  .first-page .main-page,
+  .second-page,
+  .third-page,
+  .fourth-page {
+    animation: floatIn 1.5s ease-out forwards;
+  }
+  @media (max-width: 768px) {
+    .pelements {
+        gap: 20px; /* Reduces spacing on smaller screens */
+        font-size: 20px;
+    }
+}
