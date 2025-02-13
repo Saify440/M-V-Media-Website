@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    background: linear-gradient(#222831, #556986);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensures the background covers the full viewport height */
+    color:white;
+    text-align: center;
+}
