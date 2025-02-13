@@ -70,7 +70,6 @@ a:visited {
     transition: color 0.3s ease-in-out;
 }
 
-
 /* Styles for active links */
 a:active {
     color: inherit; /* This will make the active link color the same as the surrounding text */
@@ -305,43 +304,43 @@ h1, p{
     background-repeat: no-repeat;
     overflow: hidden; /* Prevents any overflow */
 }
-.social-img{
-    width:50px;
+
+.social-img {
+    width: 50px;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .position-bottom {
     display: flex;
     align-items: center; /* Centers the items vertically */
 }
+
 .position-bottom img {
     margin-right: 5px; /* Adds some space between the image and the text */
 }
 
-
-/*ANIMATIONS*/
-
-
-/* Define the keyframes for the floating and opacity transition */
+/* Animations */
 @keyframes floatIn {
     from {
-      transform: translateY(-50px);
-      opacity: 0;
+        transform: translateY(-50px);
+        opacity: 0;
     }
     to {
-      transform: translateY(0);
-      opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
-  
-  /* Apply the animation to all elements except the banner */
-  .first-page .main-page,
-  .second-page,
-  .third-page,
-  .fourth-page {
+}
+
+/* Apply the animation to all elements except the banner */
+.first-page .main-page,
+.second-page,
+.third-page,
+.fourth-page {
     animation: floatIn 1.5s ease-out forwards;
-  }
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .pelements {
         gap: 20px; /* Reduces spacing on smaller screens */
         font-size: 20px;
