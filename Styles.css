@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 800px) {
 
     body {
         margin: 0;
@@ -375,7 +375,7 @@
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 799px) {
     body {
         margin: 0;
         background: linear-gradient(#222831, #556986);
