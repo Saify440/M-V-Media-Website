@@ -382,6 +382,7 @@
         background-repeat: no-repeat;
         height: 100vh; /* Ensures the background covers the full viewport height */
         overflow-x: hidden; /* Prevents horizontal scrolling */
+        width: 100%;
     }
     .logo-img {
         width: 100px;
@@ -404,11 +405,12 @@
         width: 100%;
         z-index: 1000; /* Keeps the banner on top of other elements */
         background: linear-gradient(#222831, #556986);
-        padding: 10px 0; /* Adjusts the padding to make the banner more visible */
-        height: 30px;
+        height: 50px;
     }
     
-    
+    .main-page{
+        padding-bottom: 120px;
+    }
 
       
     .pelements{
@@ -427,7 +429,7 @@
         height: 100%;
         display: flex;
         justify-content: center; /* Centers horizontally */
-        align-items: center; /* Centers vertically */
+        
         
     }
 
