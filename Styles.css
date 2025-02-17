@@ -449,6 +449,7 @@
         justify-content: space-around;
         height: 24px;
         width: 30px;
+        margin-right:10px;
     }
     
     .menu-button .bar1, .menu-button .bar2, .menu-button .bar3 {
@@ -515,14 +516,18 @@
     .blue-text{
         color:#00ADB5;
     }
+
+
+
     /*ALL CSS TO DO WITH 2nd PAGE*/
+
+
 
     .second-page{
         color: white;
         background-color: #393E46; /* Change the background color as needed */
         margin-top: 290px;
         margin-left: -10px;
-        margin-right: -10px;
     }
 
     .page-title2{
@@ -576,7 +581,6 @@
         padding-top: 150px;
         margin-left: 10px;
         margin-right: 10px;
-        padding-bottom: 100px;
     }
     .page2-3-info{
         text-align: left;
@@ -589,10 +593,17 @@
         height: auto; /* Keep the aspect ratio */
         margin: 0 auto; /* Center the image within the container */
         display: block; /* Ensure the image is treated as a block element */
+        padding-bottom: 50px;
     }
 
-
-
+    .subtitle2{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .page3-info{
+        padding-bottom: 50px;
+    }
+    
 
     /*FORM CSS*/
 
