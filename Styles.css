@@ -387,7 +387,7 @@
     .logo-img {
         width: 100px;
         margin-top: 0px; /* Adjust the margin to place the logo at the top */
-        margin-left: -10px; /* Adjust the margin to place the logo on the left */
+
         cursor: pointer;
         border: none;
         background: none;
@@ -449,7 +449,7 @@
         justify-content: space-around;
         height: 24px;
         width: 30px;
-        margin-right:10px;
+        
     }
     
     .menu-button .bar1, .menu-button .bar2, .menu-button .bar3 {
@@ -495,7 +495,7 @@
         cursor: pointer; /* Change the cursor to a pointer on hover */
         margin-top: 145px; /* Adjust the margin to position the button below the text */
         transition: all 0.3s ease-in-out;
-        margin-left: 10px;
+       
     }
 
     .quote-button:hover {
@@ -579,7 +579,7 @@
     .page2-3{
         text-align: center;
         padding-top: 150px;
-        margin-left: 10px;
+        
 
     }
     .page2-3-info{
@@ -619,8 +619,8 @@
     form {
         width: 75%;
         padding-bottom: 2em;
-        margin-left: 12.5%;
         text-align: center;
+        margin: 0 auto;
     }
 
     fieldset {
