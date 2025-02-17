@@ -580,12 +580,12 @@
         text-align: center;
         padding-top: 150px;
         margin-left: 10px;
-        margin-right: 10px;
+
     }
     .page2-3-info{
         text-align: left;
         margin-left: 25px;
-        margin-right: 10px;
+        
     }
     .page2-3 .page2-3-img img {
         width: 100%; /* Make the image container take up the full width */
@@ -611,7 +611,6 @@
     .third-page{
         background: linear-gradient(#222831, #556986);
         margin-left: -10px;
-        margin-right: -10px;
         margin-top: -20px;
         padding-top: 120px;
         text-align: center;
@@ -703,7 +702,6 @@
         background-repeat: no-repeat;
         overflow: hidden; /* Prevents any overflow */
         margin-left: -10px;
-        margin-right: -10px;
         padding-top: 50px;
     }
 
