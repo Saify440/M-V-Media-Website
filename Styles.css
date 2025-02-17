@@ -715,7 +715,7 @@
     }
 
     .position-bottom img {
-        margin-right: 5px; /* Adds some space between the image and the text */
+        margin-left: 15px; /* Adds some space between the image and the text */
     }
 
     /* Animations */
